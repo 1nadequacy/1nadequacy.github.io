@@ -1,1 +1,284 @@
-Hello World
+<html>
+
+<head>
+<title>denis yarats home page</title>
+<style type="text/css" media="screen">
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td {
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
+}
+
+a {
+  color: #1772d0;
+  text-decoration:none;
+}
+
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+
+a.paper {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+b.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 800px;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #fff;
+}
+
+h2 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+strong {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style: circle;
+}
+
+img {
+  border: none;
+}
+
+li {
+  padding-bottom: 0.5em;
+  margin-left: 1.4em;
+}
+
+strong, b {
+	font-weight:bold;
+}
+
+em, i {
+	font-style:italic;
+}
+
+div.section {
+  clear: both;
+  margin-bottom: 1.5em;
+  background: #ccc;
+}
+
+div.spanner {
+  clear: both;
+}
+
+div.paper {
+  clear: both;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+
+div.paper div {
+  padding-right: 230px;
+}
+
+div.paper div.wide {
+  padding-right: 0px;
+}
+
+img.paper {
+  margin-bottom: 0.5em;
+  float: right;
+  width: 150px;
+}
+
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+
+div.paper pre {
+  font-size: 0.9em;
+}
+
+</style>
+
+<script type="text/javascript" src="javascript/hidebib.js"></script>
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+ rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 200px;">
+  <div style="margin: 0 auto; width: 100%; line-height: 130%;">
+    <img title="photo" style="float: left; padding-right: .5em; height: 200px;" src="images/photo.jpg" />
+    <div style="vertical-align: top; height: 250px;">
+      <span style="font-size: 20pt; line-height: 130%;">Denis Yarats</span><br />
+      <br />
+      <span>Research Engineer</span><br />
+      <a href="https://research.fb.com/category/facebook-ai-research-fair" target="_blank">Facebook AI Research (FAIR)</a>
+      <br />
+      <br />
+      <a href="https://scholar.google.com/citations?user=7kaXqgMAAAAJ&hl=en&pagesize=1000&sortby=pubdate" target="_blank">Google Scholar</a> /
+      <a href="https://github.com/1nadequacy" target="_blank">GitHub</a> /
+      <a href="data/denis_yarats_cv.pdf" target="_blank">CV</a>
+    </div>
+  </div> </div>
+
+<div style="clear: both;"><!-- page div -->
+
+<!--
+<div class="section">
+<h2>About me</h2>
+  <div class="paper">
+      TODO
+  </div>
+</div>
+-->
+
+<div class="section">
+<h2>Research</h2>
+  <div class="paper">
+      My research interests lie at the intersection of Natural Language Processing (specifically sequence to sequence learning) and Reinforcement Learning.
+  </div>
+</div>
+
+
+<div class="section">
+<h2 id="reports">Publications</h2>
+
+<div class="paper" id="lewis2017dealornodeal">
+  <img class="paper" title="Deal or No Deal? End-to-End Learning for Negotiation Dialogues" src="images/dealornodeal.png" />
+  <div>
+    <a class="paper" href="https://arxiv.org/pdf/1706.05125.pdf">Deal or No Deal? End-to-End Learning for Negotiation Dialogues</a><br />
+    Mike Lewis, <strong>Denis Yarats</strong>, Yann Dauphin, Devi Parikh, Dhruv Batra <br />
+    Conference on Empirical Methods in Natural Language Processing (EMNLP), 2017 <br />
+    <a href="https://arxiv.org/abs/1706.05125">arXiv</a> /
+    <a href="https://github.com/facebookresearch/end-to-end-negotiator">pytorch code</a> /
+    <a shape="rect" href="javascript:togglebib('lewis2017dealornodeal')" class="togglebib">bibtex</a>
+    <pre xml:space="preserve">
+@article{lewis2017dealornodeal,
+  Author = {Lewis, Mike and Yarats, Denis and Dauphin, Yann N and
+            Parikh, Devi and Batra, Dhruv},
+  Title = {Deal or No Deal? End-to-End Learning for Negotiation Dialogues},
+  Booktitle = {Conference on Empirical Methods in
+               Natural Language Processing ({EMNLP})},
+  Year = {2017}
+}
+    </pre>
+  </div>
+  <div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="gehring2017convs2s">
+  <img class="paper" title="Convolutional Sequence to Sequence Learning" src="images/convs2s.png" />
+  <div>
+    <a class="paper" href="https://arxiv.org/pdf/1705.03122.pdf">Convolutional Sequence to Sequence Learning</a><br />
+    Jonas Gehring, Michael Auli, David Grangier, <strong>Denis Yarats</strong>, Yann Dauphin <br />
+    International Conference on Machine Learning (ICML), 2017<br />
+    <a href="https://arxiv.org/abs/1705.03122">arXiv</a> /
+    <a href="https://github.com/facebookresearch/fairseq-py">pytorch code</a> /
+    <a href="https://github.com/facebookresearch/fairseq">torch code</a> /
+    <a shape="rect" href="javascript:togglebib('gehring2017convs2s')" class="togglebib">bibtex</a>
+    <pre xml:space="preserve">
+@article{gehring2017convs2s,
+  Author = {Gehring, Jonas, and Auli, Michael and Grangier, David and
+            Yarats, Denis and Dauphin, Yann N},
+  Title = {Convolutional Sequence to Sequence Learning},
+  Booktitle = {International Conference on Machine Learning ({ICML})},
+  Year = {2017}
+}
+    </pre>
+  </div>
+  <div class="spanner"></div>
+</div>
+
+</div>
+
+<!--
+<div class="section">
+<h2 id="reports">Talks</h2>
+  <div class="paper">
+
+  </div>
+</div>
+-->
+
+<!--
+<div class="section">
+<h2 id="reports">Press Coverage</h2>
+  <div class="paper">
+      TODO
+  </div>
+</div>
+-->
+
+
+
+
+</div><!-- close page div -->
+
+<div style="clear:both;">
+  <p align="right"><font size="2"><a href="http://jonbarron.info">I like this website</a></font></p><br />
+</div>
+
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+hideallabs();
+</script>
+
+</body>
+
+</html>
+
